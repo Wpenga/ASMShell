@@ -16,7 +16,7 @@ jobs:
         uses: ilteoood/docker_buildx@master
         with:
           publish: true
-          imageName: lmhsdocker/asm
+          imageName: 1687219868/asm
           dockerFile: docker/Dockerfile
           platform: linux/amd64,linux/arm64,linux/arm/v7
           tag: latest
